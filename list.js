@@ -1,0 +1,1 @@
+$.ajax({url: "https://www.reddit.com/r/MonsterHunter/.json"});
