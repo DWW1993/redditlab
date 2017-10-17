@@ -1,0 +1,14 @@
+a {
+    display: block;
+    margin-bottom: 0.5em
+}
+
+h2 {
+    margin-bottom: 0.25em;
+}
+
+.postContainers p {
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 0;
+}
