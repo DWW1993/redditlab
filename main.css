@@ -7,8 +7,14 @@ h2 {
     margin-bottom: 0.25em;
 }
 
-.postContainers p {
+p {
     display: inline-block;
     margin-right: 1em;
     margin-top: 0;
+}
+
+img {
+    width: auto;
+    max-height: 550px;
+    display: block;
 }
