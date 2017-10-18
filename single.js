@@ -10,9 +10,11 @@ $.ajax({url: "https://www.reddit.com" + url + ".json", success: function (result
     let upvotes = pageData.ups;
 
     let anchor = document.createElement("a");
+    anchor.href = "list.html"
     let h2 = document.createElement("h2");
     h2.innerText = pageTitle;
-    document.body.appendChild(h2);
+    document.body.appendChild(anchor);
+    anchor.appendChild(h2);
     let userP = document.createElement("p");
     let commentsP = document.createElement("p");
     let upvotesP = document.createElement("p");
